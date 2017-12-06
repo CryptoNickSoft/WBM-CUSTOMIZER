@@ -1,0 +1,9 @@
+ [FILENAMES]
+ Exe=Reversed\bootmgr\bootmgr.exe
+ SaveAs=Reversed\bootmgr\bootmgr.exe
+ Log=Reversed\bootmgr\reshacker.log
+
+[COMMANDS]
+-addoverwrite Reversed\bootmgr\BOOTMGR.XSL, 23,"BOOTMGR.XSL",1033
+-addoverwrite Reversed\bootmgr\soother, 23,soother,0
+
